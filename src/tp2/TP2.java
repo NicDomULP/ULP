@@ -2,9 +2,15 @@
 package tp2;
 
 import java.time.LocalDateTime;
-public class TP2 {
 
-   
+/* @author
+- Nicolas Dominguez
+- Nahuel Alegre
+- Osman Herman
+- Ulises Perez
+*/
+
+public class TP2 {
     public static void main(String[] args) {
       Reloj r1 = new Reloj (LocalDateTime.now(),"Rolex", 22345);
       RelojFit r1f= new RelojFit (LocalDateTime.now(),"Casio", 9890, 0);
